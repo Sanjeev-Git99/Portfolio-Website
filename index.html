@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjeeva Portfolio</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .naming-container {
+        background-color: aqua;
+        padding: 1px;
+      }
+      .p-style {
+        color: darkorange;
+        font-size: 20px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .anchor-container {
+        background-color: black;
+        padding: 10px;
+      }
+      .a {
+        text-decoration: none;
+        margin: 15px;
+        background-color: blueviolet;
+        font-size: 30px;
+        border-radius: 15px;
+        padding: 5px;
+        color: white;
+        font-style: oblique;
+      }
+      .a:hover{
+        background-color: lightgreen;
+      }
+      .about-me-container {
+        background-color: lightgray;
+        border-radius: 20px;
+        margin-top: -10px;
+      }
+      .about-me-heading {
+        padding: 2px;
+        font-size: 28px;
+      }
+      .about-me-para {
+        font-size: 20px;
+        padding: 5px;
+      }
+      .projects-container {
+        background-color: lightgray;
+        border-radius: 20px;
+      }
+      .project-info {
+        text-align: justify;
+        margin: 10px;
+      }
+      .project-heading {
+        color: blue;
+      }
+      #contact-anchor {
+        font-size: 25px;
+      }
+      :target {
+        background-color: aqua;
+      }
+      .name-heading {
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="naming-container">
+      <h1 class="name-heading">Sanjeeva Aerupula</h1>
+      <p class="p-style">Web Developer | Learner</p>
+    </section>
+    <div class="anchor-container">
+      <a class="a" href="#about-me">About Me</a>
+      <a class="a" href="#education">Education</a>
+      <a class="a" href="#projects">Projects</a>
+      <a class="a" href="#skills">Skills</a>
+      <a class="a" href="#contact">Contact</a>
+    </div>
+    <div class="about-me-container" id="about-me">
+      <h2 class="about-me-heading">About Me</h2>
+      <p class="about-me-para">
+        Hello! I'm a web developer passionate about building simple and
+        beautiful websites. I love learning new things and working on creative
+        projects.
+      </p>
+    </div>
+    <div class="about-me-container" id="education">
+      <h2 class="about-me-heading">Education</h2>
+      <p class="about-me-para">
+        Bachelor of Technology, Computer Science Engineering,Siddhartha
+        Institute of Technology and Science, Hyderabad, CGPA: (6.8/10).
+      </p>
+    </div>
+    <div class="projects-container" id="projects">
+      <h2 class="about-me-heading">Projects</h2>
+      <div class="project-info">
+        <h2 class="project-heading">TodoList</h2>
+        <ul>
+          <li class="about-me-para">
+            To-Do List app, is a straightforward yet powerful tool to help users
+            stay organized, set priorities, and accomplish tasks efficiently.
+          </li>
+          <li class="about-me-para">
+            This app solves these common issues by allowing users to create
+            tasks, set reminders, and organize their day in a way that’s easy to
+            navigate and use.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="projects-container" id="skills">
+      <h2 class="about-me-heading">Skills</h2>
+      <div class="project-info">
+        <h2 class="project-heading">Technical Skills</h2>
+        <ul>
+          <li class="about-me-para">HTML, CSS, Bootstrap</li>
+          <li class="about-me-para">Python, JavaScript(Basic)</li>
+        </ul>
+      </div>
+      <div class="project-info">
+        <h2 class="project-heading">Soft Skills</h2>
+        <ul>
+          <li class="about-me-para">Adaptability.</li>
+          <li class="about-me-para">Passion for Complex Problem Solving.</li>
+          <li class="about-me-para">Time Mangement.</li>
+          <li class="about-me-para">Teamwork.</li>
+          <li class="about-me-para">Consistency.</li>
+        </ul>
+      </div>
+      <div class="project-info">
+        <h2 class="project-heading">Version Control</h2>
+        <ul>
+          <li class="about-me-para">Git</li>
+          <li class="about-me-para">GitHub</li>
+        </ul>
+      </div>
+    </div>
+    <div class="projects-container" id="contact">
+        <h2 class="about-me-heading">Contact Me</h2>
+        <div class="project-info">
+          <p class="about-me-para">Email: <a class="contact-anchor" href="mailto:aerpulasanjeeva99@gmail.com"> aerpulasanjeeva99@gmail.com </a></p>
+          <p class="about-me-para">Phone: <a class="contact-anchor">+91 9951859418</a></p>
+          <p class="about-me-para">Linkedin: <a class="contact-anchor" href="https://www.linkedin.com/in/sanjeeva-aerupula/" target="_blank">View Profile</a></p>
+          <p class="about-me-para">GitHub: <a class="contact-anchor" href="https://github.com/Sanjeev-Git99" target="_blank">View Repositories</a></p>
+        </div>
+      </div>
+  </body>
+</html>
